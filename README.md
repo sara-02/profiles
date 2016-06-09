@@ -1,0 +1,2 @@
+# profiles
+Bash and aliases 
