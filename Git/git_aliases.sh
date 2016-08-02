@@ -1,6 +1,6 @@
 ##git aliases
 alias gs='git status'
-alias gA='git add'
+alias gA='git add .'
 alias ga='git add -A'
 alias gc='git commit -m'
 alias gr='git remote -v'
@@ -18,3 +18,4 @@ alias glog='git log'
 alias gpretty='git log --pretty=oneline'
 alias gsquash='git rebase -i HEAD~'
 alias grecommit='git commit --amend'
+alias gclone ='git clone'
