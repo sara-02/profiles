@@ -8,3 +8,5 @@ alias hist="history"
 alias histgp='history | grep'
 alias ll="ls-alt"
 alias pingo='ping 8.8.8.8'
+alias vdb='mongo --host 10.70.49.147:27017'
+alias eclipse='/home/sarah/Downloads/eclipse/eclipse'
