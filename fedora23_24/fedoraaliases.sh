@@ -1,18 +1,7 @@
-alias subl="/home/sarah/softwares/sublime_text_3/sublime_text" #path for sublime text
-alias jsonview="python -m json.tool" #pretty json viewer, command jsonview <filename>
-alias jsoncolor="pygmentize -l javascript" # colored pretty json, command jsonview | jsoncolor
-alias getp="sudo dnf install" #shorcut for installing through rpm
-alias findp="sudo dnf search" # shortcut to check through the rpm
-alias hist="history"
-alias hgp='history | grep'
+##Fedora Aliases
+alias subl="~/softwares/sublime_text_3/sublime_text" #path for sublime text
 alias pingo='ping 8.8.8.8'
-alias ac="ansible-container"
 alias c="clear"
 alias venv2="virtualenv --python /usr/bin/python2.7 env2"
 alias venv3="virtualenv --python /usr/bin/python3.5 env3"
-alias da="deactivate"
-alias pyn="cd ~ && ipython notebook"
-alias pipr="pip install -r requirements.txt"
-alias docst="sudo service docker start"
-alias docps="docker ps"
-alias dcomp="docker-compose up -d"
+alias jpn="jupyter notebook"
