@@ -14,6 +14,7 @@
   
 ## Run and view background process:
 * Run in background: `nohup <CMD> &`
+  * To save output in a different file `nohup <CMD> > <filename> &`
 * View above process's output once: `cat nohup.out` 
 * View above process's output periodically: `watch -n2 tail nohup.out`
 * **NOTE**: To view Python's print statements add `sys.stdout.flush()` after every print statement. 
